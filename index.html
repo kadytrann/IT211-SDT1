@@ -1,1 +1,18 @@
-My name is <firstName> <lastName>. I have been at SCC for <yearsOfStudy> and plan to <goal> after completing my courses. 
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>HW 1 - Tell Me About Yourself</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>HW 1 - Tell Me About Yourself</h1>
+  <p>Hello, my name is <span id="firstName"></span><span id="lastName"></span>. I have been at SCC for <span id="yearsOfStudy"></span> and plan to <span id="goal"></span> after completing my courses.</p>
+  <script>
+    document.getElementById("firstName").innerHTML = firstName;
+    document.getElementById("lastName").innerHTML = lastName;
+    document.getElementById("yearsOfStudy").innerHTML = yearsOfStudy;
+    document.getElementById("goal").innerHTML = goal;
+  </script>
+  </body>
+
+</html>
